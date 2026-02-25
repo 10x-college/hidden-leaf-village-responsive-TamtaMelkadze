@@ -66,9 +66,10 @@ body {
     list-style: none;
     background: #FF6B1A;
     padding: 20px;
-    position: fixed;
+    position: absolute;
+    
     left: 0;
-    width: 120px;
+    width: 100px;
     height: 200px;
     z-index: 99;
     transform: translateX(-100%);
@@ -96,6 +97,7 @@ body {
 #menu-toggle:checked ~ .menu-links {
   /* display: block; */
   transform: translateX(0);
+  margin-left: 17px;
 }
 
 .hero {
