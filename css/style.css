@@ -20,6 +20,10 @@ body {
     color: #FFFFFF;
 }
 
+.header-top h1, .header-top p {
+    text-align: center;
+}
+
 .header-navbar {
     background-color: black;
     padding: 17px;
